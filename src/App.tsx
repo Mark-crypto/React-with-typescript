@@ -1,7 +1,12 @@
+import Component from "./starter/02-props";
+
 function App() {
   return (
     <main>
-      <h2>React & Typescript</h2>
+      <Component name="Mark" id={123}>
+        <h2>Hello world</h2>
+      </Component>
+      <Component name="John" id={456} />
     </main>
   );
 }
